@@ -1,3 +1,11 @@
+speak_to_grandma(" ")
+  if speak_to_grandma == "Hi Nana, how are you?".downcase
+    puts "HUH?! SPEAK UP, SONNY!"
+  elsif speak_to_grandma == "WHAT DID YOU EAT TODAY?".upcase
+    puts "NO, NOT SINCE 1938!"
+  else 
+    puts "I LOVE YOU TOO PUMPKIN!"
+  end
 # Write a speak_to_grandma method.
 
 # Whatever you say to grandma, she should respond with
@@ -11,3 +19,4 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+
