@@ -11,3 +11,13 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+if speak_to_grandma =="Hi!"
+  puts "HUH, SPEAK UP SONNY?!"
+elsif speak_to_grandma == "HI, GRANDMA!"
+ puts "NO, NOT SINCE 1938!"
+elsif speak_to_grandma == "I LOVE YOU GRANDMA!"
+ puts "I LOVE YOU TOO PUMPKIN!" 
+ 
+end 
+ 
+  
